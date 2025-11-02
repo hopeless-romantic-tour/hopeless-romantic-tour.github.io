@@ -112,6 +112,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        background-color: #0c0f18;
+    }
+    
     .header {
         padding: 1.5rem 20px;
     }
@@ -210,6 +214,7 @@ body {
     font-size: .6rem
   }
 }
+
 
 
 
