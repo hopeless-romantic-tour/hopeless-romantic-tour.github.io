@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     overflow-x: hidden;
 }
@@ -41,12 +41,13 @@ body {
 }
 
 .container {
-    width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: 120px 20px 20px 20px;
+    gap: 3rem
 }
 
 .countdown-wrapper {
@@ -173,6 +174,12 @@ body {
     .time-unit {
         min-width: 60px;
     }
+}
+
+.banner-text img {
+    width: 75%;
+    margin: auto;
+    display: block;
 }
 
 
