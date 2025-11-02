@@ -194,11 +194,11 @@ body {
 
 @media (max-width:1230px) {
   .background {
-    -webkit-filter: blur(5px) brightness(40%);
-    -moz-filter: blur(5px) brightness(40%);
-    -o-filter: blur(5px) brightness(40%);
-    -ms-filter: blur(5px) brightness(40%);
-    filter: blur(5px) brightness(40%);
+    -webkit-filter: blur(0px) brightness(35%);
+    -moz-filter: blur(0px) brightness(35%);
+    -o-filter: blur(0px) brightness(35%);
+    -ms-filter: blur(0px) brightness(35%);
+    filter: blur(0px) brightness(35%);
   }
 }
 
@@ -210,6 +210,7 @@ body {
     font-size: .6rem
   }
 }
+
 
 
 
