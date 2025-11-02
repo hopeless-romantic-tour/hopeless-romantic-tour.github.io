@@ -1,6 +1,6 @@
 // Set your target date: November 4th at 7pm UK time (GMT/UTC+0)
 // Using UTC to ensure correct time regardless of user's timezone
-const targetDate = new Date(Date.UTC(2024, 10, 4, 19, 0, 0)); // Month is 0-indexed, so 10 = November
+const targetDate = new Date(Date.UTC(2025, 10, 4, 19, 0, 0)); // Month is 0-indexed, so 10 = November
 
 function updateCountdown() {
     const now = new Date().getTime();
