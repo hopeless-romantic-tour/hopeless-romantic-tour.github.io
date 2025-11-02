@@ -145,6 +145,8 @@ body {
     .label {
         font-size: 0.85rem;
     }
+    .banner-text img {
+        width:90%;
 }
 
 @media (max-width: 480px) {
@@ -187,7 +189,24 @@ body {
     display: block;
 }
 
+@media (max-width:1230px) {
+  .background {
+    -webkit-filter: blur(5px) brightness(40%);
+    -moz-filter: blur(5px) brightness(40%);
+    -o-filter: blur(5px) brightness(40%);
+    -ms-filter: blur(5px) brightness(40%);
+    filter: blur(5px) brightness(40%);
+  }
+}
 
+@media (max-width:400px) {
+  .countdown-wrapper .number {
+    font-size: 1.6rem
+  }
+  .countdown-wrapper .label {
+    font-size: .6rem
+  }
+}
 
 
 
