@@ -7,11 +7,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     background-color: #282f4b;
-    background-image: url('assets/background-Photoroom.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     color: #efdce2;
     min-height: 100vh;
     display: flex;
@@ -19,6 +14,16 @@ body {
     align-items: flex-end;
     justify-content: center;
     overflow-x: hidden;
+}
+
+.background {
+    background-image: url('assets/background-Photoroom.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: fixed;
 }
 
 .header {
@@ -181,6 +186,7 @@ body {
     margin: auto;
     display: block;
 }
+
 
 
 
